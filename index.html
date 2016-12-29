@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>To Do</title>
+</head>
+<body>
+	<form>
+		<input type="text" id="text" placeholder="新しいToDoを入力">
+		<button type="button" id="button">＋</button>
+	</form>
+	<main>
+		<section>
+			<div id="btn-group">
+				<button id="all" class="btn default active">全て<span>0</span></button>
+				<button id="remaining" class="btn default">未了<span>0</span></button>
+				<button id="done"class="btn default">完了<span>0</span></button>
+			</div>
+		</section>
+		<section>
+			<ul id="todos"></ul>
+		</section>
+	</main>
+	<script src="Todo.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
