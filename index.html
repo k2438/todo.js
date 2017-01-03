@@ -3,6 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
+	<script src="Observer.js"></script>
+	<script src="TodoModel.js"></script>
+	<script src="TodoController.js"></script>
+	<script src="TodoView.js"></script>
+	<script src="app.js"></script>
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function() {
+		    'use strict';
+		    new App();
+		});
+	</script>
 	<title>To Do</title>
 </head>
 <body>
@@ -22,7 +33,5 @@
 			<ul id="todos"></ul>
 		</section>
 	</main>
-	<script src="Todo.js"></script>
-	<script src="app.js"></script>
 </body>
 </html>
